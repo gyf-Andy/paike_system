@@ -1,0 +1,80 @@
+2021-04-13 16:23:16 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Starting CurriculumArrangementSystemSpringbootApplication on DESKTOP-89D0D5U with PID 3116 (C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot\target\classes started by 22413 in C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot)
+2021-04-13 16:23:16 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - No active profile set, falling back to default profiles: default
+2021-04-13 16:23:17 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:23:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-13 16:23:17 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-13 16:23:17 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-13 16:23:17 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-04-13 16:23:17 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-13 16:23:17 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-13 16:23:17 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-04-13 16:23:18 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-13 16:23:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+2021-04-13 16:23:18 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:23:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-13 16:23:18 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 16:23:18 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Started CurriculumArrangementSystemSpringbootApplication in 2.627 seconds (JVM running for 3.623)
+2021-04-13 16:23:35 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 16:23:35 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-13 16:23:35 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-04-13 16:31:57 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Starting CurriculumArrangementSystemSpringbootApplication on DESKTOP-89D0D5U with PID 2420 (C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot\target\classes started by 22413 in C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot)
+2021-04-13 16:31:57 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - No active profile set, falling back to default profiles: default
+2021-04-13 16:31:59 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:31:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-13 16:31:59 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-13 16:31:59 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-13 16:31:59 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-04-13 16:31:59 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-13 16:31:59 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-13 16:31:59 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-04-13 16:31:59 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-13 16:31:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1187 ms
+2021-04-13 16:31:59 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:31:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-13 16:31:59 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 16:31:59 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Started CurriculumArrangementSystemSpringbootApplication in 2.626 seconds (JVM running for 3.817)
+2021-04-13 16:32:08 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 16:32:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-13 16:32:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-04-13 16:32:09 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 16:32:10 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 17:07:19 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Starting CurriculumArrangementSystemSpringbootApplication on DESKTOP-89D0D5U with PID 824 (C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot\target\classes started by 22413 in C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot)
+2021-04-13 17:07:19 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - No active profile set, falling back to default profiles: default
+2021-04-13 17:07:20 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-13 17:07:20 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-13 17:07:20 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-13 17:07:20 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-13 17:07:20 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-04-13 17:07:20 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-13 17:07:20 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-13 17:07:20 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-04-13 17:07:20 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-13 17:07:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms
+2021-04-13 17:07:20 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:07:21 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-13 17:07:21 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 17:07:21 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Started CurriculumArrangementSystemSpringbootApplication in 2.222 seconds (JVM running for 3.551)
+2021-04-13 17:07:24 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 17:07:24 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-13 17:07:24 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-04-13 17:34:11 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Starting CurriculumArrangementSystemSpringbootApplication on DESKTOP-89D0D5U with PID 12532 (C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot\target\classes started by 22413 in C:\Users\22413\IdeaProjects\curriculum_arrangement_system_springboot)
+2021-04-13 17:34:11 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - No active profile set, falling back to default profiles: default
+2021-04-13 17:34:12 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-13 17:34:12 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-13 17:34:12 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-13 17:34:12 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-13 17:34:12 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-04-13 17:34:12 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-13 17:34:12 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-13 17:34:12 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-04-13 17:34:12 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-13 17:34:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1073 ms
+2021-04-13 17:34:12 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:34:13 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-13 17:34:13 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 17:34:13 [main] INFO  c.g.c.CurriculumArrangementSystemSpringbootApplication - Started CurriculumArrangementSystemSpringbootApplication in 2.684 seconds (JVM running for 3.965)
+2021-04-13 17:34:13 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 17:34:13 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-13 17:34:13 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-04-13 19:56:05 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 19:56:11 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

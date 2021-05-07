@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#loginPage{
+    width: 100%;height: 100%;position: absolute;background-color: rgba(118,117,119,0.50);display: none;
+}
+
+#l {
+    background:#FFFFFF;height: 200px;width: 400px;position: absolute;margin-left: 36%;margin-top: 50px;border-radius: 10px
+}
+#title{
+    height: 40px;font-size: 20px;line-height: 40px;
+}
+
+#admin{
+    margin-left: 15px;font-weight: 600
+}
+
+#login .xian{
+    background: #C8B1B1;height: 1px;width: 400px;
+}
+
+#account {
+    height: 40px;margin-top: 20px;
+}
+
+#password {
+    height: 40px;
+}
+
+#account,#password font{
+    margin-left: 30px;font-weight: 600;
+}
+
+#password .enter{
+    height: 23px;width: 250px;
+}
+
+#account .enter{
+    height: 23px;width: 250px;
+}
+
+#dibu{
+    height: 30px;margin-top: 20px
+}
+
+#back{
+    height: 27px;width: 50px;margin-left: 220px;background: #EFE4E4
+}
+
+#dl{
+    height: 27px;width: 50px;margin-left: 20px;background: #7A4E5B;color: aliceblue
+}
+
+#main main{
+    background-image: url(/img/study.jpg) ;background-size: 100% 130%;height: 715px
+}
+
+#main main nav{
+    padding-top: 20px;
+}
+
+#adminLogin{
+    height: 40px;width: 70px;margin-left: 80%
+}
+
+#home{
+    height: 40px;width: 70px
+}
+
+#paike{
+    height: 200px;margin-top: 460px;
+}
+
+#paike_box{
+    height: 100%;width: 200px;margin-left: 100px;text-align: center
+}
+
+#paike_box font{
+    font-size: 70px;color: #E0CDCD
+}

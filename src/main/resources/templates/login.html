@@ -1,0 +1,100 @@
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登陆窗口</title>
+<!--    <link href="/curriculum_arrangement_system_springboot/css/login.css" rel="stylesheet" type="text/css">-->
+
+<!--    <script type="text/javascript" th:src="@{/js/jquery-3.3.1.js}"></script>-->
+<!--    <script src="../static/js/jquery-3.3.1.js"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-LCPyFKQyML7mqtS+4XytolfqyqSlcbB3bvDuH9vX2sdQMxRonb/M3b9EmhCNNNrV" crossorigin="anonymous"></script>
+<!--    <link rel="stylesheet" type="text/css" th:href="@{/css/login.css}">-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+
+<body style="background: #b8daff">
+
+<div class="container ">
+    <div class="shadow-lg p-3 mb-5  rounded" style="margin-top: 10%;">
+        <div class="row inline-block " style="height:68%;margin: -15px;">
+            <div class="col-md-6 bg-primary" >
+                <div class="w-100 ml-3 " style="color: white;margin-top: 38%;">
+                    <h1 >欢迎登陆</h1>
+                    <p>排课系统</p>
+                </div>
+            </div>
+            <div class="col-md-6 bg-white" >
+                <div class="mh-100">
+                    <div class="" style="margin-top:24%;">
+                        <form id="login">
+                            <div class="form-group" >
+                                <input type="text" class="form-control w-75 m-auto" id="account" name="account" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group mt-4" >
+                                <input type="password" class="form-control w-75 m-auto" id="password" name="password">
+                            </div>
+                            <div class="form-group form-check mt-4 " style="margin-left: 13%;">
+
+                                <label class="form-check-label" for="exampleCheck1">
+                                    <input type="radio" class="form-check-input" name="identity" id="exampleCheck1" value="admin" checked="checked">
+                                    管理员
+                                </label>
+                                <label class="form-check-label ml-4" for="exampleCheck1" >
+                                    <input type="radio" class="form-check-input" name="identity" id="exampleCheck2" value="student">
+                                    学生
+                                </label>
+                                <label class="form-check-label ml-4" for="exampleCheck1">
+                                    <input type="radio" class="form-check-input" name="identity" id="exampleCheck3" value="teacher">
+                                    老师
+                                </label>
+                            </div>
+                            <div class="form-group mt-4" style="margin-left: 13%;">
+                                <button type="submit" id="dl" class="btn btn-primary" >Submit</button>
+                            </div>
+                            <div class="form-group mt-5" style="margin-left: 13%;">
+                                没有账号？<a href="#">注册</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    $(function(){
+        $("#dl").click(function(){
+            $.ajax({
+                url: '/test/toLogin.action',
+                type: 'post',
+                data: $('#login').serialize(),
+                success: function(msg){
+                    // alert(msg.code);
+                    //code==200证明登陆成功
+                    if (msg.data=="admin"){
+                        //登陆成功，跳转到首页。
+                        window.location.href="/test/toHomePage.action";
+                    }else if(msg.data=="student"){
+                        window.location.href="/student/toStudentHomePage.action";
+                    }else if(msg.data=="teacher"){
+                        window.location.href="/teacher/toTeacherHomePage.action";
+                    }else{
+                        alert(msg.msg);
+                    }
+                },
+                error: function(){
+                    alert("访问出错！");
+                }
+            });
+        });
+    })
+
+
+</script>
+
+</body>
+</html>

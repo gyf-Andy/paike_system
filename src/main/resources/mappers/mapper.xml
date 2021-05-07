@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gyf.mapper.AdminMapper">
+<!--    管理用户相关的sql-->
+    <select id="toLogin" resultType="String" parameterType="String">
+        select a_name from admin where account=#{account} and password=#{password}
+    </select>
+
+    <select id="Login" resultType="map" parameterType="String">
+        select * from ${identity} where account=#{account}
+<!--        <if test="identity==admin">-->
+<!--            select * from admin where account=#{account}-->
+<!--        </if>-->
+<!--        <if test="identity==student">-->
+<!--            select * from student where account=#{account}-->
+<!--        </if>-->
+<!--        <if test="identity==teacher">-->
+<!--            select * from teacher where account=#{account}-->
+<!--        </if>-->
+    </select>
+
+    <select id="allAdmin" resultType="com.gyf.pojo.Admin">
+        select * from admin
+    </select>
+
+    <insert id="addAdmin" parameterType="com.gyf.pojo.Admin">
+        insert into admin(account,password,name,identity) values (#{account},#{password},#{name},#{identity})
+    </insert>
+
+    <select id="isHad" parameterType="String" resultType="String">
+        select id from admin where account=#{account}
+    </select>
+
+    <update id="updateByAccount" parameterType="com.gyf.pojo.Admin">
+        update admin set account=#{account},password=#{password},a_name=#{name} where id=#{id}
+    </update>
+
+    <delete id="deleteAdmin" parameterType="int"  >
+        delete from admin where id=#{id}
+    </delete>
+
+    <select id="count" resultType="int">
+        select count(*) from admin
+    </select>
+
+    <select id="selectOneAdmin" parameterType="int" resultType="com.gyf.pojo.Admin">
+        select * from admin where id=#{id}
+    </select>
+
+    <!--    学生管理相关的sql-->
+    <select id="getStudent" resultType="com.gyf.pojo.Student">
+        select * from student
+    </select>
+
+    <select id="studentCount" resultType="int">
+        select count(*) from student
+    </select>
+
+    <insert id="addStudent" parameterType="com.gyf.pojo.Student" >
+        insert into student(account,password,studentName,department,studentClass) values (#{account},#{password},#{studentName},#{department},#{studentClass})
+    </insert>
+
+    <delete id="deleteStudent" parameterType="int" >
+        delete from student where id=#{id}
+    </delete>
+
+    <!--教师管理相关的sql-->
+    <select id="getTeacherInfo" resultType="com.gyf.pojo.Teacher">
+        select * from teacher
+    </select>
+
+    <insert id="addTeacher" parameterType="com.gyf.pojo.Teacher">
+        insert into teacher(account, password, teacherName, faculty) values (#{account},#{password},#{teacherName},#{faculty})
+    </insert>
+
+    <select id="selectOneTeacher" parameterType="String" resultType="com.gyf.pojo.Teacher">
+        select * from teacher where account=#{account}
+    </select>
+
+    <delete id="deleteTeacher" parameterType="int">
+        delete from teacher where id=#{id}
+    </delete>
+
+    <!--教室管理相关模块-->
+    <select id="getClassroomInfo" resultType="com.gyf.pojo.Classroom">
+        select * from classroom
+    </select>
+
+    <insert id="addClassroom" parameterType="com.gyf.pojo.Classroom">
+        insert into classroom(classroomName, seating, projector, allocation) values (#{classroomName},#{seating},#{projector},#{allocation})
+    </insert>
+
+    <select id="selectOneClassroom" parameterType="String" resultType="com.gyf.pojo.Classroom">
+        select * from classroom where classroomName=#{classroomName}
+    </select>
+
+    <delete id="deleteClassroom" parameterType="int">
+        delete from classroom where id=#{id}
+    </delete>
+
+    <!--课程管理相关模块-->
+    <select id="getCourseInfo" resultType="com.gyf.pojo.Course">
+        select * from course
+    </select>
+
+    <insert id="addCourse" parameterType="com.gyf.pojo.Course">
+        insert into course(courseCode, courseName, faculty, classHours) VALUES (#{courseCode},#{courseName},#{faculty},#{classHours})
+    </insert>
+
+    <select id="selectOneCourse" parameterType="String" resultType="com.gyf.pojo.Course">
+        select * from course where courseCode=#{courseCode}
+    </select>
+
+    <delete id="deleteCourse" parameterType="int">
+        delete from course where id=#{id}
+    </delete>
+
+    <!--课表管理-->
+    <select id="getProfession" parameterType="String" resultType="com.gyf.pojo.Profession">
+        select * from profession
+        <where>
+            <if test="keyWord!=null and keyWord!=''">
+                professionCode like CONCAT('%',#{keyWord},'%')
+                or professionName like CONCAT('%',#{keyWord},'%')
+            </if>
+        </where>
+    </select>
+
+    <select id="toTable" parameterType="String" resultType="com.gyf.pojo.CourseTable">
+        select * from coursetable where faculty=#{faculty}
+    </select>
+
+    <select id="getCourseNameList" resultType="String">
+        select courseName from course
+    </select>
+
+    <select id="getClassroomNameList" resultType="String">
+        select classroomName from classroom
+    </select>
+
+    <select id="getTeacherNameList" resultType="String">
+        select teacherName from teacher
+    </select>
+
+    <insert id="addCourseToTable" parameterType="com.gyf.pojo.CourseTable" >
+        insert into coursetable(classroomName, courseName, teacherName, faculty, day, whichSection)
+        values (#{classroomName},#{courseName},#{teacherName},#{faculty},#{day},#{whichSection})
+    </insert>
+
+    <!--获取所有的系别-->
+    <select id="getProfessionName" resultType="String">
+        select professionName from profession
+    </select>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="paike_system@localhost" uuid="2a499ee7-742f-4d6e-ab1f-1d3b66e0130d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/paike_system</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="paike_system@localhost [2]" uuid="1665b551-030f-4a8e-b6e7-7facf1e0f9da">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/paike_system?serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>

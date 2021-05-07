@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-LCPyFKQyML7mqtS+4XytolfqyqSlcbB3bvDuH9vX2sdQMxRonb/M3b9EmhCNNNrV" crossorigin="anonymous"></script>
+    <!--    <link rel="stylesheet" type="text/css" th:href="@{/css/login.css}">-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <link href="/css/home.css" rel="stylesheet">
+</head>
+
+<style>
+    .hoverShadow:hover{
+        -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+        border-color:rgba(141,39,142,.75);
+        -webkit-box-shadow:0 0 18px rgba(111,1,32,3);
+    }
+</style>
+
+<body style="height:auto">
+
+<!--<div id="main">-->
+
+<!--    <div class="son" >-->
+<!--        <div id="tishi" >-->
+<!--            <p id="hello" >管理员，您好:</p>-->
+<!--            <p id="select" >欢迎使用，请选择您的操作</p>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="son" style="height: 200px">-->
+<!--        <div class="one" onclick="go('user')" >-->
+<!--            <div class="imgBox" >-->
+<!--                <img src="/img/举一反三.png" >-->
+<!--            </div>-->
+<!--            <div class="name" >-->
+<!--                管理用户-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="two" onclick="go('student')" >-->
+<!--            <div class="imgBox" >-->
+<!--                <img src="/img/男学生.png" >-->
+<!--            </div>-->
+<!--            <div class="name" >-->
+<!--                学生管理-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="three" onclick="go('teacher')" >-->
+<!--            <div class="imgBox" >-->
+<!--                <img src="/img/女学生.png" >-->
+<!--            </div>-->
+<!--            <div class="name" >-->
+<!--                教师管理-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="son" >-->
+<!--        <div class="one" onclick="go('classroom')" >-->
+<!--            <div class="imgBox" >-->
+<!--                <img src="/img/提示.png" >-->
+<!--            </div>-->
+<!--            <div class="name" >-->
+<!--                教室管理-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="two" onclick="go('class')" >-->
+<!--            <div class="imgBox" >-->
+<!--                <img src="/img/作业.png" >-->
+<!--            </div>-->
+<!--            <div class="name" >-->
+<!--                课程管理-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="three" onclick="go('allocationClass')" >-->
+<!--            <div class="imgBox" >-->
+<!--                <img src="/img/课程表.png" >-->
+<!--            </div>-->
+<!--            <div class="name" >-->
+<!--                课程分配-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="logout_box" >-->
+<!--        <button>退 出</button>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+<div class="container " >
+    <div class="shadow-lg p-3 mb-5  rounded mt-5" >
+        <div class="row inline-block " style="height:68%;margin: -15px;background: #0b2e13">
+            <div class="col-md-12 bg-primary text-center text-white" style="height: 150px">
+                <div class="mt-4">
+                    <h1>管理员,123</h1>
+                    <h5>欢迎使用管理系统，请选择你的操作</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-md-4 " style="height: 200px;">
+                <center>
+                    <div class="hoverShadow bg-primary mt-5 rounded-lg d-flex justify-content-center align-items-center" style="height:150px;width: 80%;" onclick="go('user')" >
+                        <div class="bg-white rounded-circle " style="height: 80px;width: 80px;">
+                            <img class="w-100 h-100" src="/img/举一反三.png" >
+                        </div>
+                    </div>
+                    <div class="">管理用户</div>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <div class="hoverShadow bg-primary mt-5 rounded-lg d-flex justify-content-center align-items-center" style="height:150px;width: 80%;" onclick="go('student')" >
+                        <div class="bg-white rounded-circle " style="height: 80px;width: 80px;">
+                            <img class="w-100 h-100" src="/img/男学生.png" >
+                        </div>
+                    </div>
+                    <div class="">学生管理</div>
+                </center>
+            </div>
+            <div class="col-md-4" >
+                <center>
+                    <div class="hoverShadow bg-primary mt-5 rounded-lg d-flex justify-content-center align-items-center" style="height:150px;width: 80%;" onclick="go('teacher')" >
+                        <div class="bg-white rounded-circle " style="height: 80px;width: 80px;">
+                            <img class="w-100 h-100" src="/img/女学生.png" >
+                        </div>
+                    </div>
+                    <div class="">教师管理</div>
+                </center>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-md-4 " style="height: 200px;">
+                <center>
+                    <div class="hoverShadow bg-primary mt-5 rounded-lg d-flex justify-content-center align-items-center" style="height:150px;width: 80%;" onclick="go('classroomName')" >
+                        <div class="bg-white rounded-circle " style="height: 80px;width: 80px;">
+                            <img class="w-100 h-100" src="/img/提示.png" >
+                        </div>
+                    </div>
+                    <div class="">教室管理</div>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <div class="hoverShadow bg-primary mt-5 rounded-lg d-flex justify-content-center align-items-center" style="height:150px;width: 80%;" onclick="go('course')" >
+                        <div class="bg-white rounded-circle " style="height: 80px;width: 80px;">
+                            <img class="w-100 h-100" src="/img/作业.png" >
+                        </div>
+                    </div>
+                    <div class="">课程管理</div>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <div class="hoverShadow bg-primary mt-5 rounded-lg d-flex justify-content-center align-items-center" style="height:150px;width: 80%;" onclick="go('searchProfession')" >
+                        <div class="bg-white rounded-circle " style="height: 80px;width: 80px;">
+                            <img class="w-100 h-100" src="/img/课程表.png" >
+                        </div>
+                    </div>
+                    <div class="">课程分配</div>
+                </center>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function go(id){
+        if (id=="user") {
+            // window.location.href = "/test/getAdminInfo.action";
+            window.location.href = "/test/getAdminInfo.action";
+        }else if (id=="student"){
+            window.location.href = "/test/getStudent.action";
+        }else if (id=="teacher"){
+            window.location.href = "/test/getTeacherInfo.action";
+        }else if (id=="classroomName"){
+            window.location.href = "/test/getClassroomInfo.action";
+        }else if (id=="course"){
+            window.location.href = "/test/getCourseInfo.action";
+        }else if (id="searchProfession"){
+            window.location.href = "/test/searchProfession.action";
+        }
+    }
+</script>
+
+</body>
+</html>

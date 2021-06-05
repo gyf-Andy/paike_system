@@ -131,7 +131,6 @@ public class TestController {
     public ResultObject addStudent(Student student){
         System.out.println(123);
         ResultObject resultObject=adminService.addStudent(student);
-
         return resultObject;
     }
 

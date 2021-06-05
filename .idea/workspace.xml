@@ -5,12 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c8e8116-a413-4bd0-bc05-14676df35c79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/student/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/student/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/student/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/teacher/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/teacher/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gyf/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gyf/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/controller/TeacherController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/curriculum_arrangement_system_springboot/CurriculumArrangementSystemSpringbootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/mapper/AdminMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/mapper/StudentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/mapper/TeacherMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/pojo/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/pojo/Classroom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/pojo/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/pojo/CourseTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/pojo/Profession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/pojo/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/pojo/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/result/ResultObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/service/Impl/AdminServcieImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/service/Impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/service/Impl/TeacherServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/shiro/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/shiro/ShiroRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/tools/MD5Encrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gyf/tools/VerificationCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/studentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/teacher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/paike_system.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap-4.6.0-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/study.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/举一反三.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/作业.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/女学生.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/提示.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/男学生.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/课程表.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/student/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subpage/classroom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subpage/course.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subpage/courseTable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subpage/searchProfession.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subpage/student.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subpage/teacher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/subpage/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/teacher/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gyf/curriculum_arrangement_system_springboot/CurriculumArrangementSystemSpringbootApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +188,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -132,6 +203,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CurriculumArrangementSystemSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="curriculum_arrangement_system_springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gyf.curriculum_arrangement_system_springboot.CurriculumArrangementSystemSpringbootApplication" />
@@ -242,7 +324,17 @@
       <workItem from="1621478476967" duration="4519000" />
       <workItem from="1621830759834" duration="964000" />
       <workItem from="1621846490548" duration="2202000" />
-      <workItem from="1621906776109" duration="599000" />
+      <workItem from="1621906776109" duration="2534000" />
+      <workItem from="1621940241863" duration="354000" />
+      <workItem from="1621941104853" duration="1063000" />
+      <workItem from="1622026952552" duration="1401000" />
+      <workItem from="1622166768553" duration="2278000" />
+      <workItem from="1622192706707" duration="118000" />
+      <workItem from="1622193118140" duration="3470000" />
+      <workItem from="1622279421234" duration="14000" />
+      <workItem from="1622608694761" duration="1071000" />
+      <workItem from="1622686639152" duration="2189000" />
+      <workItem from="1622875383384" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="排课系统第一次提交">
       <created>1620388065952</created>
@@ -251,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620388065952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="去除学生和老师的查看课程页面不应该有的功能">
+      <created>1621917204665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621917204665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,12 +384,30 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="排课系统第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="排课系统第一次提交" />
+    <MESSAGE value="去除学生和老师的查看课程页面不应该有的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除学生和老师的查看课程页面不应该有的功能" />
   </component>
 </project>
